@@ -1,0 +1,58 @@
+/* NewItemForm.css */
+
+.new-item-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    color: #fff;
+    font-weight: bold;
+}
+
+.custom-form .form-label {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.custom-form .form-control,
+.custom-form .form-select {
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.custom-form .form-control:focus,
+.custom-form .form-select:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    border-color: #007bff;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.text-center {
+    text-align: center;
+}
